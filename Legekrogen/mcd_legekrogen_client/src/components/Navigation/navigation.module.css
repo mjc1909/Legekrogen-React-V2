@@ -1,0 +1,57 @@
+.navigation {
+
+    background-color: #355675;
+    padding : 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    svg {
+
+        color: #fff;
+        font-size : 60px;
+        cursor: pointer;
+        
+        &:hover {
+            color : pink;
+        }
+
+    }
+    .nav {
+
+        display : none;
+
+        &.open {
+            display: block;
+        }
+
+    }
+
+    a {
+        color : white;
+        text-decoration: none;
+        margin : 0 5px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .active {
+        color : black;
+        background-color: #fff;
+    }
+}
+
+.logo{
+    width: 150px;
+}
